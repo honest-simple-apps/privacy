@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — Device Info Viewer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #1C1B1F;
+            background: #FFFBFE;
+            padding: 24px;
+            max-width: 720px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #1C1B1F;
+        }
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            color: #1C1B1F;
+        }
+        p {
+            margin-bottom: 16px;
+            font-size: 16px;
+        }
+        .subtitle {
+            font-size: 14px;
+            color: #49454F;
+            margin-bottom: 32px;
+        }
+        .highlight-card {
+            background: #FFF8E1;
+            border-left: 4px solid #FDD835;
+            padding: 16px 20px;
+            border-radius: 0 8px 8px 0;
+            margin-bottom: 24px;
+            font-size: 16px;
+            font-weight: 500;
+        }
+        ul {
+            margin-bottom: 16px;
+            padding-left: 24px;
+        }
+        li {
+            margin-bottom: 8px;
+            font-size: 16px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 24px;
+            font-size: 14px;
+        }
+        th, td {
+            text-align: left;
+            padding: 10px 12px;
+            border-bottom: 1px solid #E6E1E5;
+        }
+        th {
+            font-weight: 600;
+            background: #F5F0F7;
+            color: #49454F;
+        }
+        .footer {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid #E6E1E5;
+            font-size: 14px;
+            color: #49454F;
+        }
+        @media (prefers-color-scheme: dark) {
+            body {
+                background: #1C1B1F;
+                color: #E6E1E5;
+            }
+            h1, h2 {
+                color: #E6E1E5;
+            }
+            .subtitle {
+                color: #CAC4D0;
+            }
+            .highlight-card {
+                background: #2D2A1E;
+                border-left-color: #FDD835;
+                color: #E6E1E5;
+            }
+            th {
+                background: #2B2930;
+                color: #CAC4D0;
+            }
+            td {
+                border-bottom-color: #49454F;
+            }
+            .footer {
+                border-top-color: #49454F;
+                color: #CAC4D0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy</h1>
+    <p class="subtitle">Device Info Viewer &mdash; com.honestsimpleapps.deviceinfo<br>Effective date: March 19, 2026</p>
+
+    <div class="highlight-card">
+        See everything about your device. We see nothing about you.
+    </div>
+
+    <h2>Overview</h2>
+    <p>
+        Device Info Viewer is a utility app that displays your device's hardware and software
+        information using standard Android system APIs. This privacy policy explains what data
+        the app reads, what it stores, and how advertising works.
+    </p>
+
+    <h2>What the App Reads</h2>
+    <p>
+        The app reads device information from standard Android system APIs:
+        <code>Build</code> (model, manufacturer), <code>ActivityManager</code> (memory),
+        <code>SensorManager</code> (sensors), <code>BatteryManager</code> (battery status),
+        <code>DisplayMetrics</code> (screen specs), <code>PackageManager</code> (camera features),
+        <code>StatFs</code> (storage), and <code>Runtime</code> (CPU info).
+    </p>
+    <p>
+        <strong>All of this information is displayed to you on-device and is never transmitted to
+        any server.</strong> The "Share All" feature lets you choose to share this data via the
+        system share sheet -- but that is entirely your choice and action.
+    </p>
+
+    <h2>Permissions</h2>
+    <p>
+        Device Info Viewer requires <strong>zero runtime permissions</strong>. All system APIs used
+        to read device information are permission-free on Android 8.0+. The app does not request
+        access to your camera, location, contacts, storage, microphone, or any other capability.
+    </p>
+    <p>
+        The only permission present in the app manifest is <code>INTERNET</code>, which is a
+        "normal" Android permission (not a "dangerous" permission) and is required solely for
+        loading advertisements via Google AdMob. If you purchase "Remove Ads," no network requests
+        are made by the app.
+    </p>
+
+    <h2>Data We Collect</h2>
+    <p><strong>We do not collect any personal data.</strong></p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Data Type</th>
+                <th>Collected?</th>
+                <th>Details</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Personal information</td>
+                <td>No</td>
+                <td>No accounts, no sign-up, no name or email collected</td>
+            </tr>
+            <tr>
+                <td>Device information</td>
+                <td>Read locally only</td>
+                <td>Device specs are read from system APIs and displayed on-screen. Never transmitted.</td>
+            </tr>
+            <tr>
+                <td>Location</td>
+                <td>No</td>
+                <td>No location permissions requested or used</td>
+            </tr>
+            <tr>
+                <td>Photos, videos, audio</td>
+                <td>No</td>
+                <td>No camera or microphone access</td>
+            </tr>
+            <tr>
+                <td>Contacts</td>
+                <td>No</td>
+                <td>No contacts access</td>
+            </tr>
+            <tr>
+                <td>Analytics / telemetry</td>
+                <td>No</td>
+                <td>No analytics SDKs, no crash reporting, no usage tracking</td>
+            </tr>
+            <tr>
+                <td>Device identifiers</td>
+                <td>By ads SDK only</td>
+                <td>See "Advertising" section below</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Data Stored on Your Device</h2>
+    <p>
+        The app stores a minimal amount of data locally using Android DataStore (Preferences).
+        This data never leaves your device.
+    </p>
+    <ul>
+        <li><strong>Ad removal status:</strong> Whether you purchased the "Remove Ads" in-app purchase</li>
+        <li><strong>Section expand/collapse state:</strong> Which info sections you have expanded or collapsed</li>
+        <li><strong>Ad-free timer:</strong> Timestamp for when a rewarded ad-free period expires</li>
+    </ul>
+    <p>
+        No device information is persisted. All specs are read live from system APIs each time
+        the app is opened.
+    </p>
+
+    <h2>Background Work</h2>
+    <p>
+        Device Info Viewer runs <strong>zero background services</strong>. No WorkManager jobs,
+        no alarms, no broadcast receivers registered in the manifest. The app does zero work
+        when not visible on screen.
+    </p>
+
+    <h2>Advertising</h2>
+    <p>
+        The free version of Device Info Viewer displays advertisements provided by
+        <strong>Google AdMob</strong>. This includes banner ads and interstitial ads shown at
+        section transitions. The AdMob SDK may collect device identifiers (such as the Android
+        Advertising ID) for the purpose of serving and personalizing advertisements.
+    </p>
+    <p>
+        You can control ad personalization through your Android device settings:
+        <strong>Settings &gt; Google &gt; Ads &gt; Opt out of Ads Personalization</strong>.
+    </p>
+    <p>
+        The app also offers optional rewarded ads: you may choose to watch a short video
+        advertisement to temporarily go ad-free for 15 minutes, or complete a brief survey
+        to go ad-free for 30 minutes. These are entirely voluntary and user-initiated.
+    </p>
+    <p>
+        For details on how Google handles data collected through AdMob, please refer to
+        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.
+    </p>
+
+    <h2>In-App Purchases</h2>
+    <p>
+        Device Info Viewer offers a single in-app purchase: <strong>"Remove Ads" for $0.99</strong>.
+        This is a one-time, non-consumable purchase processed through Google Play Billing. After
+        purchase, no ads are displayed and no ad-related network requests are made. The purchase
+        restores automatically across reinstalls via your Google Play account.
+    </p>
+    <p>
+        We do not process payments directly. All payment processing is handled by Google Play.
+        See <a href="https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice" target="_blank" rel="noopener">Google Payments Privacy Notice</a>.
+    </p>
+
+    <h2>Children's Privacy</h2>
+    <p>
+        This app is not directed at children under 13. We do not knowingly collect personal
+        information from children. The app contains advertisements which may not be suitable
+        for or directed at children.
+    </p>
+
+    <h2>Third-Party Services</h2>
+    <p>The app uses the following third-party services:</p>
+    <ul>
+        <li>
+            <strong>Google AdMob</strong> &mdash; for displaying advertisements.
+            <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy Policy</a>
+        </li>
+        <li>
+            <strong>Google Play Billing</strong> &mdash; for processing in-app purchases.
+            <a href="https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice" target="_blank" rel="noopener">Privacy Notice</a>
+        </li>
+    </ul>
+
+    <h2>Data Security</h2>
+    <p>
+        All network communication (ad requests, billing verification) is encrypted using HTTPS/TLS.
+        Local preferences are stored in Android's app-private data directory, accessible only to
+        the app itself. No device information is transmitted over the network by the app.
+    </p>
+
+    <h2>Your Rights</h2>
+    <p>
+        Since we do not collect or store any personal data on our servers, there is no personal data
+        to access, export, or delete. Local preferences can be cleared by uninstalling the app or
+        clearing the app's data through Android Settings.
+    </p>
+
+    <h2>Changes to This Policy</h2>
+    <p>
+        We may update this privacy policy from time to time. Any changes will be posted on this page
+        with an updated effective date. Continued use of the app after changes constitutes acceptance
+        of the updated policy.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+        If you have questions about this privacy policy or the app's data practices, please contact
+        us at:
+    </p>
+    <p>
+        <strong>Email:</strong> honest.simple.apps@proton.me<br>
+    </p>
+
+    <div class="footer">
+        <p>
+            Device Info Viewer &mdash; Version 1.0.0<br>
+            &copy; 2026 HonestSimpleApps. All rights reserved.<br>
+            Last updated: March 19, 2026
+        </p>
+    </div>
+</body>
+</html>
